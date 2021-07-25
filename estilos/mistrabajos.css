@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+font-size: 16px;
+}
+
+body { 
+background-image: url("../imagenes/fondo\ 2.jpg");
+}
+
+/*-- HEADER --*/
+
+.header {
+    background-color: #3d394a;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.header .lista {
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-between;
+}
+
+
+.header .lista li a {
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .lista li a:hover {
+    font-size: 20px;
+}
+
+/*-- PRIMERO --*/
+
+.primero {
+    width: 100%;
+}
+
+.primero .titulo {
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+    background-color: #3d394a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.primero .imagen {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.primero .imagen .foto {
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.primero .imagen .foto .tamaño {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 7px 7px 0px #171a1f;
+    width: 400px;
+}
+
+.recien {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/fondo\ 3.jpg);
+}
+
+.recien .titulo {
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    background-color: #3d394a;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 800;
+}
+
+.recien .revista {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.recien .revista .imagen {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.recien .revista .informacion{
+    align-items: center;
+    color: white;
+    width: 450px;
+    margin-right: 3%;
+}
+
+.recien .revista .informacion .subtitulo {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.recien .revista .informacion .texto {
+    font-size: 18px;
+    margin-bottom: 160px ;
+}

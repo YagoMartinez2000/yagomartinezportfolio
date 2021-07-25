@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+font-size: 16px;
+}
+
+body { 
+background-image: url("../imagenes/fondo\ 2.jpg");
+overflow-x: hidden;
+}
+
+
+/*-- HEADER --*/
+
+.header {
+    background-color: #3d394a;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.header .lista {
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: space-between;
+}
+
+
+.header .lista li a {
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .lista li a:hover {
+    font-size: 20px;
+}
+
+/*-- PRIMERO --*/
+
+.primero {
+    width: 100%;
+}
+
+.primero .imagen {
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    height: 100vh;
+}
+
+.primero .titulo {
+    font-weight: 500;
+    font-size: 80px;
+    background-color: #3d394a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.primero .lista {
+       display: flex;
+       flex-direction: column; 
+      margin-top: 40px;
+}
+
+.primero .lista .opcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #423e50;
+    border-radius: 20px;
+    width: 650px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.primero .lista .derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #423e50;
+    border-radius: 20px;
+    width: 650px;
+    margin-right: 10%;
+    margin-top: 50px;
+    align-self: flex-end;
+}
+
+.primero .lista .opcion .subtitulo {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    height: 40px;
+}
+
+.primero .lista .opcion .texto {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    height: 20px;
+}
+
+.primero .lista .opcion .info {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.primero .lista .opcion .fecha {
+    margin-left: 5%;
+    height: 20px;
+    margin-top: 5px;
+    font-family: 'Scada', sans-serif;
+    color: #dda548;
+}
+
+/*-- SEGUNDO --*/
+
+.segundo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    background-image: url(../imagenes/fondo\ 3.jpg);
+    height: 700px;
+}
+
+.segundo .estudio {
+    display: flex;
+    flex-direction: column; 
+   margin-top: 50px;
+}
+
+.segundo .estudio .titulo {
+    font-weight: 500;
+    font-size: 80px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    width: 800px;
+    margin-left: 10%;
+}
+
+.segundo .estudio .lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    margin-left: 10%;
+}
+
+.segundo .estudio .lista .opcion {
+    margin-top: 20px;
+}
+
+.segundo .estudio .lista .opcion .entidad {
+    margin-top: 5px;
+    font-family: 'Scada', sans-serif;
+    color: #dda548;
+    font-size: 18px;
+}
+
+.segundo .estudio .lista .opcion .documento {
+    margin-top: 5px;
+} 
+
+.segundo .cursos {
+    display: flex;
+    flex-direction: column; 
+   margin-top: 50px;
+}
+
+.segundo .cursos .titulo {
+    font-weight: 500;
+    font-size: 80px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    width: 800px;
+    margin-left: -15%;
+}
+
+.segundo .cursos .lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    margin-left: -15%;
+}
+
+.segundo .cursos .lista .opcion {
+    margin-top: 20px;
+}
+
+.segundo .cursos .lista .opcion .entidad {
+    margin-top: 5px;
+    font-family: 'Scada', sans-serif;
+    color: #dda548;
+    font-size: 18px;
+}
+
+/*-- TERCERO --*/
+
+.tercero {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+}
+
+.tercero .titulo {
+    font-weight: 500;
+    font-size: 80px;
+    background-color: #3d394a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 1000px;
+    margin-left: 20%;
+}
+
+.tercero .lista .opcion {
+    margin-left: 30%;
+    margin-top: 80px;
+    list-style: none;
+    display: flex;
+
+}
+
+.tercero .lista .opcion .programa {
+    width: 100px ;
+    height: 100px;
+   margin-top: 30px;
+}
+
+.tercero .lista .opcion .barra {
+    width: 425px;
+    margin-left: 2%;
+}
+
+.tercero .lista .opcion .numero {
+    color: white;
+    font-size: 35px;
+    font-weight: 450;
+    margin-top: 50px;
+    margin-left: 2%;
+}
